@@ -2,7 +2,7 @@
 
 ## Organización del contenido
 
-Cada tarea está alojada en la carpeta con su numero correspondiente y contiene todos los archivos y paquetes necesarios para realizar la actividad de la semana.
+Cada tarea en una carpeta con su numero correspondiente y contiene todos los archivos y paquetes necesarios para realizar la actividad de la semana.
 
 Durante este semestre, la tarea de cada semana se habilitará durante el horario de clases.
 

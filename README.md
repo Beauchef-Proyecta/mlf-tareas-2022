@@ -12,6 +12,6 @@ El material del curso está hecho para correr en Python 3.7.3. Puede que sea com
 
 Adicionalmente, sugerimos usar PyCharmo Community Edition si no se es familiar con el uso de terminal para crear ambientes virtuales y/o instalar paquetes con `pip`. 
 
-Las instrucciones para instalar las herramientas sugeridas del curso están en [la wiki de este repositorio](https://github.com/Beauchef-Proyecta/mlf-base/wiki/Instalaci%C3%B3n-de-Herramientas-de-Software).
+Las instrucciones para instalar las herramientas sugeridas del curso están en [la wiki de este repositorio](https://github.com/Beauchef-Proyecta/mlf-tareas-2022/wiki/Instalaci%C3%B3n-de-Herramientas-de-Software).
 
 

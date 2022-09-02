@@ -29,9 +29,10 @@ git pull
 En la tarea anterior usamos el script `set_joints.py` para mover el robot. En esta clase lo volveremos a usar, pero calcularemos los valores de los angulos usando la cinemática inversa.
 
 1. Para esto, edita la función `position_to_dof` en el archivo `inverse_kinematics.py` de modo que retorne los valores correctos de `q_0`, `q_1` y `q_2`.
-**Bonus**: ¿Cómo comprobarías que están bien estos valores?
+**Bonus**: 
+¿Cómo comprobarías que están bien estos valores?
 
-2. Agrega la lógica en `set_joints.py` para que puedas dibujar usando coordenadas cartesianas, en lugar de ángulos del robot
+2. Usa el archivo `move_the_robot.py` y modifícalo para que puedas dibujar usando coordenadas cartesianas, en lugar de ángulos del robot.
 
 
 
@@ -44,18 +45,27 @@ En la tarea anterior usamos el script `set_joints.py` para mover el robot. En es
 - La ecuación de cinmática inversa del robot
 
 **Código**
+
 *No más U-Cursos para el código!*
 
 1. Anda a la carpeta donde tienes este repositorio y abre una terminal de *Git Bash*
 2. Agrega todos los cambios que tengas con el siguiente comando
-```sh
-git add .
-```
-3. Confima los cambios con el commando `commit` y luego súbelos a github con el comando `push`
-```sh
-git commit -m "agrega mis soluciones de la tarea 3 y otras anteriores"
-git push
-```
+    ```sh
+    git add 01_basics 02_kinematics 03_inverse_kinematics
+    ```
+3. Confima los cambios con el commando `commit`
+    ```sh
+    git commit -m "agrega mis soluciones de la tarea 3 y otras anteriores"
+    ```
+ 4. Sube los cambios a github con el comando `push`
+    ```sh
+    git push
+    ```
 
 Si todo sale bien, deberías ver que tu repositorio en github tiene todos los cambios que hiciste durante esta tarea :)!
+
+Debes subir a tu github los cambios en los archivos:
+- `inverse_kinematics.py`: modificar la función `position_to_dof` con las ecuaciones y sus unidades correctas
+- `move_the_robot.py`: agregar las instrucciones para dibujar figuras simples
+- *BONUS*: crea una función para cada figura
 

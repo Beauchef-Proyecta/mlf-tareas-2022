@@ -6,7 +6,7 @@ import numpy as np
 
 # Conectarse al robot
 
-r = RobotClient(address="192.168.0.15")  # Recuerda usar una dirección válida
+r = RobotClient(address="127.0.0.1")  # Recuerda usar una dirección válida
 r.connect()
 r.home()  # Revisa el archivo client.py para que veas qué hace esta función
 

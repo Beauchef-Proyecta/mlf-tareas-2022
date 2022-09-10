@@ -42,7 +42,7 @@ En la tarea anterior usamos el script `set_joints.py` para mover el robot. En es
 - Dibujo del esquema simplificado del robot, con sus grados de libertad identificados
 - Las matrices de transformación, en función de sus grados de libertad, que describen el movimiento del robot
 - La ecuación explícita para obtener la **posición** del efector (mano) del robot, en cartesianas, en función de sus grados de libertad.
-- La ecuación de cinmática inversa del robot
+- La ecuación de cinemática inversa del robot
 
 **Código**
 
@@ -64,8 +64,8 @@ En la tarea anterior usamos el script `set_joints.py` para mover el robot. En es
 
 Si todo sale bien, deberías ver que tu repositorio en github tiene todos los cambios que hiciste durante esta tarea :)!
 
-Debes subir a tu github los cambios en los archivos:
+**Debes subir a tu github los cambios en los archivos**:
 - `inverse_kinematics.py`: modificar la función `position_to_dof` con las ecuaciones y sus unidades correctas
 - `move_the_robot.py`: agregar las instrucciones para dibujar figuras simples
-- *BONUS*: crea una función para cada figura
+    *BONUS*: crea una función para cada figura
 
